@@ -35,7 +35,9 @@ a {
     text-decoration: none;
 }
 /* Header */
-
+.div_container_main {
+    background-image: url(//imagens/index/onandodigital_big_tela.jpeg );
+}
 /* Main */
 
 /* Footer */
