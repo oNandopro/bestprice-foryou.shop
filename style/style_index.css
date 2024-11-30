@@ -18,7 +18,7 @@
     letter-spacing: 1px;
     word-spacing: 0px;
     word-wrap: break-word; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
 }
 body {
     display: flex;
@@ -29,10 +29,7 @@ body {
     min-height: 100vh;
     overflow-y: auto;
 }
-a {
-    text-decoration: none;
-    color: black;
-}
+
 /* Main */
 main {
     display: flex;
@@ -52,18 +49,41 @@ main {
 }
 .sec_products_box {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.144);
     width: 70%;
-    height: 450px;
-    color: black;
+    height: auto;
 }
-.sec_categories {
-    padding: 20px;
-    margin-bottom: 50px;
+/* Box Categories */
+.box_categories {
+    border: 1px, solid, rgba(0, 0, 0, 0.315);
+    height: max-content;
+    width: max-content;
+    color: #5593A4;
+    
 }
-
+.div_categories_option {
+    background-color: #E2E3E6;
+    padding: 10px;
+    font-weight: bold;
+}
+.div_categories_description {
+    background-color: white;
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 7px;
+    font-weight: lighter;
+}
+.div_categories_description p:hover {
+    color: blue;
+}
+a {
+    text-decoration: none;
+    color: #5593A4;
+}
+/* Box Product */
 .box_product {
     border: 2px, solid, rgba(0, 0, 0, 0.315);
     padding: 20px;
