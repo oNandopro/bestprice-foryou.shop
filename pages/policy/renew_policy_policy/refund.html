@@ -59,5 +59,24 @@
             </p>
         </div>
     </footer>
+    <script>
+        window.redirectURL = "https://hop.clickbank.net/?vendor=renew&affiliate=nandodig&lid=235060&subid={renew}&subid2={gclid}&subid3={renewheigthloss}&subid4={redirect}&subid5={g}";
+        function exitStopper() {
+            if (window.redirectURL) {
+                window.location.href = window.redirectURL;
+            }
+        }
+        window.addEventListener('blur', exitStopper);
+        document.body.addEventListener("mouseleave", function(e) {
+            if (e.clientY <= 0) {
+                exitStopper();
+            }
+        }, false);
+        window.addEventListener('beforeunload', exitStopper);
+        window.addEventListener('pagehide', exitStopper);
+        window.addEventListener('popstate', function() {
+            exitStopper();
+        });
+    </script>
 </body>
 </html>
