@@ -47,14 +47,18 @@ main {
     align-items: center;
     width: 100%;
     height: 100%;
-    background-image: url(/imagens/ind.jpeg);
+    background-image: url(/imagens/index/onandodigital_big_tela.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(0, 0, 0, 0);
     background-blend-mode: multiply;
 }
-
+.sec_products {
+    background-color: white;
+    width: 500px;
+    height: 450px;
+}
 /* Footer */
 footer {
     display: flex;
