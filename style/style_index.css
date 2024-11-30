@@ -61,7 +61,6 @@ main {
     height: max-content;
     width: max-content;
     color: #5593A4;
-    
 }
 .div_categories_option {
     background-color: #E2E3E6;
@@ -84,9 +83,17 @@ a {
     color: #5593A4;
 }
 /* Box Product */
-.box_product {
-    border: 2px, solid, rgba(0, 0, 0, 0.315);
+.box_products {
+    display: flex;
+    flex-direction: column;
+}
+.product_box {
+    border: 1px, solid, rgba(0, 0, 0, 0.315);
     padding: 20px;
+    height: max-content;
+    margin: 5px;
+    margin-top: 0px;
+    color: black;
 }
 /* Footer */
 footer {
