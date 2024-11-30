@@ -124,6 +124,9 @@ footer {
 footer p {
     padding: 20px;
 }
+.palavras_chave {
+    display: none;     
+}
 h4 {
     padding: 10px;
 }
